@@ -20,6 +20,7 @@
 }
 .skills {
     padding: 160px 200px 0 200px;
+    margin-bottom: 160px;
 }
 .skills-container {
     display: flex;
@@ -38,6 +39,7 @@
     font-size: 35pt;
     font-weight: 700;
     color: white;
+    text-align: center;
 }
 .skill-box:hover {
     background-color: #751113;
@@ -55,4 +57,44 @@
 }
 .middlebox {
     margin: 0 20px 0 20px;
+}
+@media only screen and (max-width: 1000px) {
+    input {
+
+    }
+    .skills {
+        padding: 40px 10% 0 10%;
+    }
+    .about {
+        padding: 0;
+    }
+    .about h1 {
+        text-align: center;
+    }
+    .about-p {
+        font-size: 12pt;
+    }
+    .about-info {
+        display: flex;
+        justify-content: center;
+    }
+    .about-resumebtn {
+        display: flex;
+        justify-content: center;
+    }
+    .skills-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+    }
+    .skill-box {
+        padding: 20px;
+        height: auto;
+        width: auto;
+        text-align: center;
+        font-size: 4vw;
+    }
+    .skills-icons {
+        display: none;
+    }
 }
